@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <style type="text/css">
+        h1, body {
+            font-family: "Special Elite", "san-serif";
+            text-align: center;
+        }
+        body {
+            padding: 20px;
+        }
+
+        #prompt {
+            line-height: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Speed Mentoring</h1>
+    <p>I am a....</p>
+    <button id="mentor">mentor</button>
+    <button id="mentee">mentee</button>
+    <br><br>
+    <p>Ask this:</p>
+    <h2 id="prompt"></h2>
+
+    <script type="text/javascript">
+
+        function setPrompt(prompt) {
+            document.getElementById("prompt").innerHTML = prompt
+        }
+
+        function mentor() {
+            
+            const mentorQuestions = [
+                "What is your biggest challenge in the next three months?",
+                "What do you want to be different by this time next year?",
+                "What does success look like to you?",
+                "Who do you look up to? What do you think that did to succeed?",
+                "If you were promoted, what do you think that job would be like?",
+                "Tell me the three best things about you",
+                "What's one accomplishment that you are really proud of?",
+                "What do you think motivates you?",
+                "What are your goals for the next six months?",
+                "How do you decide what to focus on to advance your career?",
+                "What do you think is the hardest part about building a network?",
+                "How did you get your current job?",
+                "Have you ever negotiated your salary or asked for a raise?"
+            ]
+            let q = mentorQuestions[Math.floor(Math.random()*mentorQuestions.length)];
+            setPrompt(q)
+        }
+
+        function mentee() {
+            const menteeQuestions = [
+                "Did you ever take a job that you felt unqualified for? How did it turn out?",
+                "What's one piece of advice you would give to someone who hopes to be promoted?",
+                "What is the greatest challenge you face in your career?",
+                "What is one skill you have been working on lately? How did you do it?",
+                "If you have been promoted before, what was it like?",
+                "What do you think is the most important skill a leader should have?",
+                "Name a major risk you took. How did it turn out?",
+                "What helps you to be confident?",
+                "How can someone best prepare for a promotion?",
+                "How do you set goals? What is one goal you met recently?",
+                "How do you handle when something isn't going well?"
+            ]
+            let q = menteeQuestions[Math.floor(Math.random()*menteeQuestions.length)];
+            setPrompt(q)
+        }
+
+
+        function autorun() {
+            document.getElementById("mentor").onclick = mentor
+            document.getElementById("mentee").onclick = mentee
+        }
+        if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
+        else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
+        else window.onload = autorun;
+    </script>
+</body>
+
+</html>
