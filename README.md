@@ -19,6 +19,8 @@ your mentor or mentee!
 
 [Speed Mentoring App](https://ember-learn.github.io/mentorship-workshop/app/)
 
+Questions inspired by [23 Extraordinary questions to ask your mentor](https://theresabradleybanta.com/23-extraordinary-questions-to-ask-your-mentor/)
+
 ## Contributing
 
 Contributions are welcome! As much as possible, try
