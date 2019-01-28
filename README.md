@@ -3,7 +3,7 @@ Do you want to run a mentoring event at your Meetup, conference, or workplace? Y
 
 This repository is a work-in-progress. Materials will include things like:
 - A speed mentoring guide
-- An [app]((https://ember-learn.github.io/mentorship-workshop/app/) to kickstart mentor/mentee conversations
+- An [app](https://ember-learn.github.io/mentorship-workshop/app/) to kickstart mentor/mentee conversations
 - Participant application forms
 - Pre-event emails
 - Weekly newsletter emails
