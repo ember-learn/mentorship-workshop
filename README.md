@@ -18,3 +18,10 @@ Click the buttons to generate new questions to ask
 your mentor or mentee!
 
 [Speed Mentoring App](https://ember-learn.github.io/mentorship-workshop/app/)
+
+## Contributing
+
+Contributions are welcome! As much as possible, try
+to keep them generic to the location and type of event.
+
+Cite your sources if you use or reference external sources.
