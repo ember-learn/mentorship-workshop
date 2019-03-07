@@ -14,12 +14,12 @@ During the conference, try to meet up with your mentor. For example, maybe you w
 
 After the conference, it’s up to you whether you continue chatting, but we hope that you do! For example, even a quarterly check-in can go a long way towards building your career and skills.
 
-In general, a good mentee...
-- Keeps a list of things they would like to chat about
-- Shares updates if/when they follow through with a mentor’s suggestion, to let them know how it went
-- Reaches out proactively to their mentor
-- Challenges themselves to try new things
-- Works towards being a mentor themselves someday
+In general, a mentee might...
+- Keep a list of things they would like to chat about
+- Share updates if/when they follow through with a mentor’s suggestion, to let them know how it went
+- Reach out proactively to their mentor
+- Challenge themselves to try new things
+- Work towards being a mentor themselves someday
 
 Remember that just like friendships come in many different forms, mentoring relationships have a lot of variation, and that’s ok!
 
