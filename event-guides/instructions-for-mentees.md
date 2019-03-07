@@ -1,9 +1,5 @@
 # Instructions for Mentees
 
-Link to this from emails to mentees.
-
------
-
 Thanks for participating as a mentee! Here’s what we hope you will do during and after the event.
 
 When you arrive, say hi! For many of the mentees, this will be the first conference they attend, maybe their first tech conference ever. See if you can find your mentor match.
